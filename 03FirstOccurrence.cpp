@@ -26,8 +26,8 @@ int FirstOccurrence(int arr[], int n, int x)
 
 int main(int argc, char const *argv[])
 {
-    int arr[] = {10, 20, 20, 40, 50, 60};
-    int n = sizeof(arr) / sizeof(arr[0]);
+    int arr[] = {10, 20, 20, 40, 50, 60, 80};
+    int n = sizeof(arr) / sizeof(arr(int));
     cout << FirstOccurrence(arr, n, 20);
     return 0;
 }
